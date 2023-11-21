@@ -7,7 +7,7 @@ email addresses: kaustav.das@monash.edu, ivan.guo@monash.edu, gregoire.loeper@mo
 
 ### Quickstart for readers of the article
 
-Simply run SPDE_compare.py, which computes and compares the price and implied volatility of a European put option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models, where the price is obtained via a Full Monte-Carlo method and our mixed Monte-Carlo PDE method, then benchmarked against the so-called Monte-Carlo Mixing Solution method.
+Simply run SPDE_Compare.py, which computes and compares the price and implied volatility of a European put option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models, where the price is obtained via a Full Monte-Carlo method and our mixed Monte-Carlo PDE method, then benchmarked against the so-called Monte-Carlo Mixing Solution method.
 
 ### Main files
 The following .py files are required in order to utilise the mixed Monte-Carlo PDE method.
@@ -27,7 +27,7 @@ The rest of the .py files are auxiliary files that are not required for the mixe
 - **Full_MC.py**
   Computes the price of a European put/call option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models via a Full Monte-Carlo method.
   
-- **SPDE_compare.py**
+- **SPDE_Compare.py**
   Computes and compares the price and implied volatility of a European put/call option in a variety of models, where the price is obtained via a Full Monte-Carlo method and our mixed Monte-Carlo PDE method, then benchmarked against the so-called Monte-Carlo Mixing Solution method.
   
 - **ImpVol_Brent.py:** 
