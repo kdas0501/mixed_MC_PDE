@@ -18,7 +18,7 @@ The following .py files are required in order to utilise the mixed Monte-Carlo P
 - **SPDE_semiimplicit.py**
   Computes the price of a European put/call option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models, where the numerical PDE scheme utilised is semi-implicit.
 
-Details of the numerical SPDE schemes utilised in the above methods are given in the PDF Numericalschemes_SPDE.pdf.
+Details of the numerical SPDE schemes utilised in the above methods are given in the PDF **Numericalschemes_SPDE.pdf**.
 
 ### Auxiliary files
 The rest of the .py files are auxiliary files that are not required for the mixed Monte-Carlo PDE method.
