@@ -1,4 +1,4 @@
-# SPDE_Solver
+# mixed_MC_PDE
 This repository contains working code for utilising the mixed Monte-Carlo PDE method detailed in Section 6 of the article 'On Stochastic Partial Differential Equations and their applications to derivative pricing via a conditional Feynman-Kac formula'.
 
 Title: 'On Stochastic Partial Differential Equations and their applications to derivative pricing via a conditional Feynman-Kac formula'
@@ -13,10 +13,10 @@ Simply run SPDE_compare.py, which computes and compares the price and implied vo
 The following .py files are required in order to utilise the mixed Monte-Carlo PDE method.
 
 - **SPDE_CN.py**
-  Computes the price of a European put or call option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models via the mixed Monte-Carlo PDE method, where the numerical PDE scheme utilised is Crank-Nicolson.
+  Computes the price of a European put/call option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models via the mixed Monte-Carlo PDE method, where the numerical PDE scheme utilised is Crank-Nicolson.
   
 - **SPDE_semiimplicit.py**
-  Computes the price of a European put or call option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models, where the numerical PDE scheme utilised is semi-implicit.
+  Computes the price of a European put/call option in the Heston, GARCH diffusion, Ornstein-Uhlenbeck, Inverse-Gamma, and Verhulst models, where the numerical PDE scheme utilised is semi-implicit.
 
 ### Auxiliary files
 The rest of the .py files are auxiliary files that are not required for the mixed Monte-Carlo PDE method.
